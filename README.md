@@ -69,7 +69,7 @@ this.$axios({
 
 后端收到请求,查询数据库,以json的形式返回结果
 
-```json
+```
 app.get('/api/latestNews', function (req, res,next) {
 		pool.getConnection(function(err, connection) { 
 			var resResult=[]
@@ -111,7 +111,7 @@ app.get('/api/latestNews', function (req, res,next) {
 
 由于项目含有较多组件,如果在页面首次打开时就需要加载所有组件,无疑无大大减缓加载速度,为此,引入`vue-router`的`lazy-load`功能, 由于在首页加载完成后不需要加载校友组件,所以下面以校友页面为例,说明该过程
 
-```json
+```
 export default new Router({
   routes: [
   {
@@ -126,7 +126,7 @@ export default new Router({
 
 父路由下还有子路由,路由之间存在嵌套,定义子路由如下:
 
-```json
+```
 {
 	path: '/',
       name: 'Index',
@@ -144,13 +144,13 @@ export default new Router({
 
 更改网站打开的默认路由
 
-```json
+```
 redirect: '/AcademyProfile/index',
 ```
 
 #### 动态路由
 
-```json
+```
 {
         path: '/News/:page',
         component: resolve => require(['@/components/Tree/News.vue'], resolve)
@@ -208,7 +208,7 @@ Vue.use(elementUI)
 
 ## 项目结构
 
-```json
+```
 .
 ├── Footer.vue       //底部栏
 ├── Identity		 //身份
