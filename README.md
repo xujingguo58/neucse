@@ -194,7 +194,7 @@ Vue.use(elementUI)
 
 ### 首页
 
-![](http://oq34prjoz.bkt.clouddn.com/FrCQtzW7x0JWmsBiOlSwlkZGzpwh)
+![首页](http://oq34prjoz.bkt.clouddn.com/FrCQtzW7x0JWmsBiOlSwlkZGzpwh)
 
 ### 新闻页
 
