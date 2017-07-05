@@ -190,11 +190,15 @@ Vue.use(elementUI)
 
 数据库选用的是`MySQL`,用express操纵数据库.
 
+### 备案
+
+截止到今天,备案仍然没有通过,不得不吐槽办事效率,从腾讯云开始提交信息再到提交管局,从5月20号到7月5号依旧显示备案中.
+
 ## 项目截图
 
 ### 首页
 
-![首页](http://oq34prjoz.bkt.clouddn.com/FrCQtzW7x0JWmsBiOlSwlkZGzpwh)
+![首页](http://oq34prjoz.bkt.clouddn.com/Fn958WIrulhJ0iwSJSkxpL9qckKl)
 
 ### 新闻页
 
@@ -204,7 +208,9 @@ Vue.use(elementUI)
 
 ![通知页](http://oq34prjoz.bkt.clouddn.com/FvBhyyg_3sUkHP4mJ5Au_b3CCgq6)
 
+### 校友
 
+![校友](http://oq34prjoz.bkt.clouddn.com/FhLyojuIAkh--zppQRlvWbvk2zvf)
 
 ## 项目结构
 
@@ -237,4 +243,4 @@ Vue.use(elementUI)
 
 
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).?
